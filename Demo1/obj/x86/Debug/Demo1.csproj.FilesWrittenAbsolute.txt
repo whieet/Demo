@@ -65,3 +65,4 @@
 /Users/whieet/Projects/Demo/Demo1/bin/Debug/Content/player/john_static.xnb
 /Users/whieet/Projects/Demo/Demo1/bin/Debug/Content/player/player_weapon_break.xnb
 /Users/whieet/Projects/Demo/Demo1/bin/Debug/Content/player/weapon_bullet.xnb
+/Users/whieet/Projects/Demo/Demo1/bin/Debug/Content/walktile.xnb

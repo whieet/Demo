@@ -13,7 +13,6 @@
     <File>/Users/whieet/Projects/Demo/Demo1/Content/jungle_tree1_bg.png</File>
     <File>/Users/whieet/Projects/Demo/Demo1/Content/jungle_tree2.png</File>
     <File>/Users/whieet/Projects/Demo/Demo1/Content/jungle_tree2_bg.png</File>
-    <File>/Users/whieet/Projects/Demo/Demo1/Content/tileset.png</File>
     <File>/Users/whieet/Projects/Demo/Demo1/Content/player/john_crouch.png</File>
     <File>/Users/whieet/Projects/Demo/Demo1/Content/player/john_crouch_shoot.png</File>
     <File>/Users/whieet/Projects/Demo/Demo1/Content/player/john_dead.png</File>
@@ -27,5 +26,7 @@
     <File>/Users/whieet/Projects/Demo/Demo1/Content/player/john_static.png</File>
     <File>/Users/whieet/Projects/Demo/Demo1/Content/player/player_weapon_break.png</File>
     <File>/Users/whieet/Projects/Demo/Demo1/Content/player/weapon_bullet.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/tileset.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/walktile.png</File>
   </SourceFiles>
 </SourceFileCollection>

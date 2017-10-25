@@ -48,6 +48,15 @@
   <ItemGroup>
     <None Include="app.manifest" />
     <None Include="Icon.png" />
+    <None Include="Content\enemy\enemy_weapon_bullet.png" />
+    <None Include="Content\enemy\grunt.png" />
+    <None Include="Content\enemy\grunt_crouch.png" />
+    <None Include="Content\enemy\grunt_crouch_shoot_front.png" />
+    <None Include="Content\enemy\grunt_death.png" />
+    <None Include="Content\enemy\grunt_idle.png" />
+    <None Include="Content\enemy\grunt_run.png" />
+    <None Include="Content\enemy\grunt_shoot.png" />
+    <None Include="Content\enemy\turret.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Icon.ico" />

@@ -60,9 +60,9 @@ namespace Demo1
 		
 		private Point bulletCurrentFrame = Point.Zero;
 
-		private Point bulletFrameSize = new Point(26, 22);
+		private Point bulletFrameSize = new Point(8, 8);
 
-		private Point bulletSheetSize = new Point(1, 1);
+		private Point bulletSheetSize = new Point(7, 1);
 
 		private bool bulletAlive = false;
 		// bullet end
@@ -74,6 +74,8 @@ namespace Demo1
 		{
 			graphics = new GraphicsDeviceManager(this);
 			Content.RootDirectory = "Content";
+			graphics.PreferredBackBufferHeight = 480;
+			graphics.PreferredBackBufferWidth = 800;
 			IsMouseVisible = true;
 		}
 		
@@ -175,6 +177,7 @@ namespace Demo1
 			
 			// bullet start
 			bulletSprite = new Sprite(Content.Load<Texture2D>(@"player/weapon_bullet"),playPosition,bulletCurrentFrame,bulletFrameSize,bulletSheetSize);
+
 			// bullet end
 			
 			
@@ -198,13 +201,16 @@ namespace Demo1
 
 			// TODO: Add your update logic here
 
+			playPosition = runSprite.position;
+
 			KeyboardState keyboardState = Keyboard.GetState();
 			KeyboardState previourseKeyboardState = Keyboard.GetState();
 			if (keyboardState.IsKeyDown(Keys.D))
 			{
 				jumpAlive = false;
 				runAlive = true;
-				runSprite.position.X++;
+				playPosition.X++;
+				runSprite.position.X = playPosition.X;
 				runSprite.spriteEffects = SpriteEffects.None;
 				runSprite.Update(gameTime, spriteBatch);
 			}
@@ -213,7 +219,8 @@ namespace Demo1
 			{
 				jumpAlive = false;
 				runAlive = true;
-				runSprite.position.X--;
+				playPosition.X--;
+				runSprite.position.X = playPosition.X;
 				runSprite.spriteEffects = SpriteEffects.FlipHorizontally;
 				runSprite.Update(gameTime, spriteBatch);
 			}
@@ -221,17 +228,53 @@ namespace Demo1
 			if (keyboardState.IsKeyDown(Keys.Space))
 			{
 				jumpSprite.spriteEffects = runSprite.spriteEffects;
-				jumpSprite.position = runSprite.position;
+				jumpSprite.position = playPosition;
 				jumpSprite.Update(gameTime,spriteBatch);
 				jumpSprite.position.Y -= 40;
+				jumpSprite.position.X += 40;
+				playPosition.Y -= 40;
 				jumpAlive = true;
 				runAlive = false;
+			}
+
+			if (keyboardState.IsKeyDown(Keys.J))
+			{
+				if (!bulletAlive)
+				{
+					bulletAlive = true;
+					bulletSprite.position = playPosition;
+				}
+			}
+
+//			bulletSprite.millisecondsPerFrame = 100;
+
+			if (bulletAlive)
+			{
+				bulletSprite.spriteEffects = runSprite.spriteEffects;
+				if (bulletSprite.spriteEffects == SpriteEffects.None)
+				{
+					bulletSprite.position.X += 5;
+					bulletSprite.position.Y = playPosition.Y;
+				}
+				else
+				{
+					bulletSprite.position.X -= 5;
+					bulletSprite.position.Y = playPosition.Y;
+
+				}
+				if (!new Rectangle(0, 0, 800, 480).Contains(bulletSprite.position))
+				{
+					bulletAlive = false;
+				}
+				
+				bulletSprite.Update(gameTime, spriteBatch);
 			}
 			
 			Console.WriteLine(gameTime.ElapsedGameTime.Milliseconds);
 			
 			base.Update(gameTime);
 		}
+		
 
 		/// <summary>
 		/// This is called when the game should draw itself.
@@ -261,6 +304,12 @@ namespace Demo1
 				jumpSprite.Draw(gameTime,spriteBatch);
 
 			}
+
+			if (bulletAlive)
+			{
+				bulletSprite.Draw(gameTime,spriteBatch);
+			}
+			
 			spriteBatch.End();
 			base.Draw(gameTime);
 		}

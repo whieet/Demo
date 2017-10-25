@@ -3,11 +3,11 @@
   <SourceFile>/Users/whieet/Projects/Demo/Demo1/Content/clouds1.png</SourceFile>
   <SourceTime>2017-06-14T11:34:08+08:00</SourceTime>
   <DestFile>/Users/whieet/Projects/Demo/Demo1/Content/bin/DesktopGL/clouds1.xnb</DestFile>
-  <DestTime>2017-10-18T17:05:22+08:00</DestTime>
+  <DestTime>2017-10-25T17:15:34+08:00</DestTime>
   <Importer>TextureImporter</Importer>
-  <ImporterTime>2017-03-01T23:06:24+08:00</ImporterTime>
+  <ImporterTime>2017-10-16T00:46:58+08:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
-  <ProcessorTime>2017-03-01T23:06:24+08:00</ProcessorTime>
+  <ProcessorTime>2017-10-16T00:46:58+08:00</ProcessorTime>
   <Parameters>
     <Key>ColorKeyColor</Key>
     <Value>255,0,255,255</Value>
