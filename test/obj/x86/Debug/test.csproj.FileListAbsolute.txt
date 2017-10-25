@@ -1,0 +1,7 @@
+/Users/whieet/Projects/Demo/test/bin/Debug/Content/demo.tmx
+/Users/whieet/Projects/Demo/test/bin/Debug/test.exe
+/Users/whieet/Projects/Demo/test/bin/Debug/test.pdb
+/Users/whieet/Projects/Demo/test/obj/x86/Debug/test.csprojResolveAssemblyReference.cache
+/Users/whieet/Projects/Demo/test/obj/x86/Debug/test.csproj.CoreCompileInputs.cache
+/Users/whieet/Projects/Demo/test/obj/x86/Debug/test.exe
+/Users/whieet/Projects/Demo/test/obj/x86/Debug/test.pdb

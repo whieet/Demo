@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/walktile.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/clouds1.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/clouds2.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/jungle_bg_trees.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/jungle_paralax_bg1.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/jungle_paralax_bg2.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/jungle_tree1.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/jungle_tree1_bg.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/jungle_tree2.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/jungle_tree2_bg.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/tileset.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/player/john_crouch.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/player/john_crouch_shoot.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/player/john_dead.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/player/john_defeated.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/player/john_hithurt.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/player/john_idle.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/player/john_jump.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/player/john_run.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/player/john_run_shoot.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/player/john_stand_shooting.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/player/john_static.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/player/player_weapon_break.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/player/weapon_bullet.png</File>
+  </SourceFiles>
+</SourceFileCollection>

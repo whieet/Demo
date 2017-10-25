@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>/Users/whieet/Projects/Demo/Demo/Content/clouds1.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo/Content/clouds2.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo/Content/jungle_bg_trees.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo/Content/jungle_paralax_bg1.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo/Content/jungle_paralax_bg2.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo/Content/jungle_tree1.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo/Content/jungle_tree1_bg.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo/Content/jungle_tree2.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo/Content/jungle_tree2_bg.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo/Content/tileset.png</File>
+  </SourceFiles>
+</SourceFileCollection>
