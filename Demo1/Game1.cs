@@ -99,6 +99,7 @@ namespace Demo1
 
 		private bool isJump = false;
 		
+		
 		public Game1()
 		{
 			graphics = new GraphicsDeviceManager(this);
@@ -182,6 +183,23 @@ namespace Demo1
 
 			return tiles;
 		}
+
+
+//		public Rectangle[] GetInvisiblePlaces()
+//		{
+//			MapXml mapXml = new MapXml("Content/demo.tmx");
+//			var objects = mapXml.GetObjects();
+//			Rectangle[] objectRectangles = new Rectangle[objects.Count];
+//			int key = 0;
+//			foreach (var VARIABLE in objects)
+//			{
+//				objectRectangles[key] = new Rectangle(VARIABLE.xpos,VARIABLE.ypos,VARIABLE.width,VARIABLE.height);
+//				key++;
+//			}
+//
+//			return objectRectangles;
+//		}
+		
 		
 		/// <summary>
 		/// LoadContent will be called once per game and is the place to load
@@ -257,6 +275,7 @@ namespace Demo1
 
 			KeyboardState keyboardState = Keyboard.GetState();
 			KeyboardState previourseKeyboardState = Keyboard.GetState();
+			
 			if (!playerDeath)
 			{
 				if (keyboardState.IsKeyDown(Keys.D))
@@ -266,9 +285,9 @@ namespace Demo1
 					playPosition.X++;
 					runSprite.position.X = playPosition.X;
 					runSprite.spriteEffects = SpriteEffects.None;
-					runSprite.Update(gameTime, spriteBatch);
+					
 				}
-
+				runSprite.Update(gameTime, spriteBatch);
 				if (keyboardState.IsKeyDown(Keys.A))
 				{
 					jumpAlive = false;
@@ -276,9 +295,9 @@ namespace Demo1
 					playPosition.X--;
 					runSprite.position.X = playPosition.X;
 					runSprite.spriteEffects = SpriteEffects.FlipHorizontally;
-					runSprite.Update(gameTime, spriteBatch);
+					
 				}
-
+				runSprite.Update(gameTime, spriteBatch);
 				if (keyboardState.IsKeyDown(Keys.Space))
 				{
 					isJump = true;
@@ -308,6 +327,7 @@ namespace Demo1
 					{
 						bulletAlive = true;
 						bulletSprite.position = playPosition;
+						Console.WriteLine(bulletSprite.position);
 					}
 				}
 			}
@@ -346,6 +366,15 @@ namespace Demo1
 					runAlive = false;
 					playerDeath = true;
 				}
+
+//				Rectangle[] rectangles = GetInvisiblePlaces();
+//				foreach (var rect in rectangles)
+//				{
+//					if (VARIABLE.Collision(VARIABLE.position,rect))
+//					{
+//						VARIABLE.position.Y = rect.Y - 22;
+//					}
+//				}
 			}
 			
 			

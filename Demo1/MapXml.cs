@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
 using Microsoft.Xna.Framework;
@@ -31,7 +32,16 @@ namespace Demo1
             public int height;
             public string[] data;
         };
+        
+        public struct ObjectElement
+        {
+            public int id;
+            public int xpos;
+            public int ypos;
+            public int width;
+            public int height;
 
+        }
         
         public MapXml(string mapPath)
         {
@@ -91,6 +101,27 @@ namespace Demo1
             }
 
             return dataArrays;
+        }
+
+        public List<ObjectElement> GetObjects()
+        {
+            var xmlObjectGroup = xrootElement.Elements("objectgroup");
+            List<ObjectElement> objects = new List<ObjectElement>();
+            foreach (var objectGroup in xmlObjectGroup)
+            {
+                foreach (var objectElement in objectGroup.Elements("object"))
+                {
+                    ObjectElement objectsElement = new ObjectElement();
+                    objectsElement.id = (int)objectElement.Attribute("id");
+                    objectsElement.xpos = (int)objectElement.Attribute("x");
+                    objectsElement.ypos = (int)objectElement.Attribute("y");
+                    objectsElement.width = (int)objectElement.Attribute("width");
+                    objectsElement.height = (int)objectElement.Attribute("height");
+                    objects.Add(objectsElement);
+                }
+            }
+
+            return objects;
         }
         
     }

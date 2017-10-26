@@ -42,6 +42,7 @@ namespace Demo1
 
         public virtual void Update(GameTime gameTime,SpriteBatch spriteBatch)
         {
+            position.Y += 10;
 			// gameTime.ElapsedGameTime 属性来检测自上一帧之后经过了多少时间。这个属性表示上一次调用Update方法后经过的时间（一帧多少秒）
 			// Milliseconds经过的时间毫秒数 
             // timeSinceLastFrame 用来追踪自上一帧之后经过了多少时间
@@ -62,6 +63,14 @@ namespace Demo1
                 }
             }
             
+            Rectangle[] rectangles = GetInvisiblePlaces();
+            foreach (var rect in rectangles)
+            {
+                if (this.Collision(this.position,rect))
+                {
+                    this.position.Y = rect.Y - 22;
+                }
+            }
             
         }
 
@@ -98,6 +107,34 @@ namespace Demo1
             );
 
             return aRectangle.Intersects(bRectangle);
+        }
+
+        public virtual bool Collision(Vector2 aPosition, Rectangle rectangle)
+        {
+            Point collisionRectOffset = new Point(0,0);
+            Rectangle aRectangle = new Rectangle(
+                (int)aPosition.X + collisionRectOffset.X,
+                (int)aPosition.Y + collisionRectOffset.Y,
+                frameSize.X - collisionRectOffset.X * 2,
+                frameSize.Y - collisionRectOffset.Y * 2
+            );
+            
+            return aRectangle.Intersects(rectangle);
+        }
+        
+        public Rectangle[] GetInvisiblePlaces()
+        {
+            MapXml mapXml = new MapXml("Content/demo.tmx");
+            var objects = mapXml.GetObjects();
+            Rectangle[] objectRectangles = new Rectangle[objects.Count];
+            int key = 0;
+            foreach (var VARIABLE in objects)
+            {
+                objectRectangles[key] = new Rectangle(VARIABLE.xpos,VARIABLE.ypos,VARIABLE.width,VARIABLE.height);
+                key++;
+            }
+
+            return objectRectangles;
         }
         
     }
