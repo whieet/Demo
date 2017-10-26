@@ -2,56 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52b63960-0494-48d1-a724-4296b2175cf5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Demo1/Content/enemy/enemy_weapon_bullet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Demo1/Content/enemy/grunt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Demo1/Content/enemy/grunt_crouch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Demo1/Content/enemy/grunt_crouch_shoot_front.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Demo1/Content/enemy/grunt_death.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Demo1/Content/enemy/grunt_idle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Demo1/Content/enemy/grunt_run.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Demo1/Content/enemy/grunt_shoot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Demo1/Content/enemy/turret.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/bin/DesktopGL/walktile.xnb" afterPath="$PROJECT_DIR$/Demo1/Content/bin/DesktopGL/walktile.xnb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/walktile.png" afterPath="$PROJECT_DIR$/Demo1/Content/walktile.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/bin/Debug/Demo1.exe" afterPath="$PROJECT_DIR$/Demo1/bin/Debug/Demo1.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/bin/Debug/Demo1.pdb" afterPath="$PROJECT_DIR$/Demo1/bin/Debug/Demo1.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/obj/x86/Debug/Demo1.exe" afterPath="$PROJECT_DIR$/Demo1/obj/x86/Debug/Demo1.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/obj/x86/Debug/Demo1.pdb" afterPath="$PROJECT_DIR$/Demo1/obj/x86/Debug/Demo1.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Demo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Demo/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo.userprefs" afterPath="$PROJECT_DIR$/Demo.userprefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/Content.mgcb" afterPath="$PROJECT_DIR$/Demo1/Content/Content.mgcb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/demo.tmx" afterPath="$PROJECT_DIR$/Demo1/Content/demo.tmx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/.mgcontent" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/Content/.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/Content/.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/clouds1.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/clouds1.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/clouds2.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/clouds2.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/jungle_bg_trees.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/jungle_bg_trees.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/jungle_paralax_bg1.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/jungle_paralax_bg1.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/jungle_paralax_bg2.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/jungle_paralax_bg2.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/jungle_tree1.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/jungle_tree1.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/jungle_tree1_bg.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/jungle_tree1_bg.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/jungle_tree2.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/jungle_tree2.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/jungle_tree2_bg.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/jungle_tree2_bg.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_crouch.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_crouch.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_crouch_shoot.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_crouch_shoot.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_dead.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_dead.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_defeated.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_defeated.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_hithurt.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_hithurt.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_idle.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_idle.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_jump.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_jump.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_run.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_run.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_run_shoot.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_run_shoot.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_stand_shooting.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_stand_shooting.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_static.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/john_static.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/player_weapon_break.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/player_weapon_break.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/weapon_bullet.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/player/weapon_bullet.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/tileset.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/tileset.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/walktile.mgcontent" afterPath="$PROJECT_DIR$/Demo1/Content/obj/DesktopGL/walktile.mgcontent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Demo1.csproj" afterPath="$PROJECT_DIR$/Demo1/Demo1.csproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/Game1.cs" afterPath="$PROJECT_DIR$/Demo1/Game1.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/bin/Debug/Content/demo.tmx" afterPath="$PROJECT_DIR$/Demo1/bin/Debug/Content/demo.tmx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/obj/x86/Debug/Demo1.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/Demo1/obj/x86/Debug/Demo1.csproj.FileListAbsolute.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo1/obj/x86/Debug/Demo1.csproj.FilesWrittenAbsolute.txt" afterPath="$PROJECT_DIR$/Demo1/obj/x86/Debug/Demo1.csproj.FilesWrittenAbsolute.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,7 +40,7 @@
       <file leaf-file-name="MapXml.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Demo1/MapXml.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="898">
+            <state relative-caret-position="1305">
               <caret line="93" column="9" lean-forward="false" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
               <folding>
                 <marker date="1508408227000" expanded="false" signature="6:189" ph="..." />
@@ -116,7 +74,7 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Demo1/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-494">
+            <state relative-caret-position="375">
               <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
               <folding>
                 <marker date="1508317393000" expanded="true" signature="0:226" ph="Using Statements" />
@@ -135,52 +93,63 @@
       <file leaf-file-name="Game1.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Demo1/Game1.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="235" column="33" lean-forward="false" selection-start-line="235" selection-start-column="33" selection-end-line="235" selection-end-column="33" />
+            <state relative-caret-position="315">
+              <caret line="301" column="37" lean-forward="false" selection-start-line="301" selection-start-column="37" selection-end-line="301" selection-end-column="37" />
               <folding>
-                <marker date="1508921906000" expanded="false" signature="6:195" ph="..." />
-                <marker date="1508921906000" expanded="true" signature="211:8123" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="215:286" ph="/// This is the main type for your game. ... " />
-                <marker date="1508921906000" expanded="true" signature="313:8121" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="734:764" ph="/* run end ... */" />
-                <marker date="1508921906000" expanded="true" signature="955:986" ph="/* stand end ... */" />
-                <marker date="1508921906000" expanded="true" signature="1205:1237" ph="/* jump end ... */" />
-                <marker date="1508921906000" expanded="true" signature="1557:1765" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="1775:2098" ph="/// Allows the game to perform any initialization it needs to before starting to run. ... " />
-                <marker date="1508921906000" expanded="true" signature="2137:2244" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="2274:3867" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="2440:2510" ph="/* foreach (string i in data) ... */" />
-                <marker date="1508921906000" expanded="true" signature="2718:3845" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="2760:3840" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="2838:3834" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="2929:3783" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="3146:3339" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="3206:3330" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="3794:3827" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="3873:4002" ph="/// LoadContent will be called once per game and is the place to load ... " />
-                <marker date="1508921906000" expanded="true" signature="4042:4936" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="4318:4350" ph="/* run end ... */" />
-                <marker date="1508921906000" expanded="true" signature="4492:4525" ph="/* stand end ... */" />
-                <marker date="1508921906000" expanded="true" signature="4664:4698" ph="/* jump end ... */" />
-                <marker date="1508921906000" expanded="true" signature="4940:5175" ph="/// Allows the game to run logic such as updating the world, ... " />
-                <marker date="1508921906000" expanded="true" signature="5227:7379" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="5235:5352" ph="/* For Mobile devices, this logic will close the Game when the Back button is pressed ... */" />
-                <marker date="1508921906000" expanded="true" signature="5759:5973" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="6014:6240" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="6285:6572" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="6613:6725" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="6640:6720" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="6793:7280" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="6914:7008" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="7017:7112" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="7184:7222" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="7386:7546" ph="/// This is called when the game should draw itself. ... " />
-                <marker date="1508921906000" expanded="true" signature="7596:8112" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="7755:7841" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="7786:7831" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="7858:7910" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="7928:7982" ph="{...}" />
-                <marker date="1508921906000" expanded="true" signature="8003:8058" ph="{...}" />
+                <marker date="1508926810000" expanded="false" signature="6:195" ph="..." />
+                <marker date="1508926810000" expanded="true" signature="211:10182" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="215:286" ph="/// This is the main type for your game. ... " />
+                <marker date="1508926810000" expanded="true" signature="313:10180" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="773:803" ph="/* run end ... */" />
+                <marker date="1508926810000" expanded="true" signature="994:1025" ph="/* stand end ... */" />
+                <marker date="1508926810000" expanded="true" signature="1244:1276" ph="/* jump end ... */" />
+                <marker date="1508926810000" expanded="true" signature="1503:1534" ph="/* bullet end ... */" />
+                <marker date="1508926810000" expanded="true" signature="2164:2372" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="2382:2705" ph="/// Allows the game to perform any initialization it needs to before starting to run. ... " />
+                <marker date="1508926810000" expanded="true" signature="2744:2851" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="2881:4474" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="3047:3117" ph="/* foreach (string i in data) ... */" />
+                <marker date="1508926810000" expanded="true" signature="3325:4452" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="3367:4447" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="3445:4441" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="3536:4390" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="3753:3946" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="3813:3937" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="4401:4434" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="4480:4609" ph="/// LoadContent will be called once per game and is the place to load ... " />
+                <marker date="1508926810000" expanded="true" signature="4649:6450" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="4925:4957" ph="/* run end ... */" />
+                <marker date="1508926810000" expanded="true" signature="5099:5132" ph="/* stand end ... */" />
+                <marker date="1508926810000" expanded="true" signature="5271:5305" ph="/* jump end ... */" />
+                <marker date="1508926810000" expanded="true" signature="5454:5489" ph="/* bullet end ... */" />
+                <marker date="1508926810000" expanded="true" signature="5552:5772" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="6363:6446" ph="/* enemybullet stop ... */" />
+                <marker date="1508926810000" expanded="true" signature="6454:6689" ph="/// Allows the game to run logic such as updating the world, ... " />
+                <marker date="1508926810000" expanded="true" signature="6741:9344" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="6749:6866" ph="/* For Mobile devices, this logic will close the Game when the Back button is pressed ... */" />
+                <marker date="1508926810000" expanded="true" signature="7254:8436" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="7300:7522" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="7564:7798" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="7844:7876" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="7893:8266" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="8094:8141" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="8151:8187" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="8312:8431" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="8341:8425" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="8508:8995" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="8629:8723" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="8732:8827" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="8899:8937" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="9038:9237" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="9172:9232" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="9351:9511" ph="/// This is called when the game should draw itself. ... " />
+                <marker date="1508926810000" expanded="true" signature="9561:10171" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="9720:9806" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="9751:9796" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="9823:9875" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="9893:9947" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="9968:10023" ph="{...}" />
+                <marker date="1508926810000" expanded="true" signature="10065:10117" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -189,7 +158,7 @@
       <file leaf-file-name="Game1.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Demo/Game1.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
+            <state relative-caret-position="540">
               <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="41" selection-end-column="52" />
               <folding>
                 <marker date="1508310376000" expanded="false" signature="6:122" ph="..." />
@@ -256,7 +225,6 @@
               <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
                 <marker date="1508825275000" expanded="false" signature="6:54" ph="..." />
-                <marker date="1508825275000" expanded="true" signature="70:1006" ph="{...}" />
                 <marker date="1508825275000" expanded="true" signature="94:211" ph="{...}" />
                 <marker date="1508825275000" expanded="true" signature="127:205" ph="{...}" />
                 <marker date="1508825275000" expanded="true" signature="235:334" ph="{...}" />
@@ -276,11 +244,10 @@
       <file leaf-file-name="Sprite.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Demo1/Sprite.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="82" column="9" lean-forward="false" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+            <state relative-caret-position="1425">
+              <caret line="99" column="53" lean-forward="false" selection-start-line="99" selection-start-column="53" selection-end-line="99" selection-end-column="53" />
               <folding>
                 <marker date="1508832675000" expanded="false" signature="6:122" ph="..." />
-                <marker date="1508832675000" expanded="true" signature="139:3452" ph="{...}" />
                 <marker date="1508832675000" expanded="true" signature="170:3450" ph="{...}" />
                 <marker date="1508832675000" expanded="true" signature="740:1232" ph="{...}" />
                 <marker date="1508832675000" expanded="true" signature="1311:2150" ph="{...}" />
@@ -387,39 +354,7 @@
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Demo (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demo (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demo1" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demo (3 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demo1" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Content" />
+              <option name="myItemId" value="Demo (synchronizing...)" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -538,12 +473,13 @@
       <workItem from="1508767045090" duration="1108000" />
       <workItem from="1508824494978" duration="6883000" />
       <workItem from="1508833148416" duration="8558000" />
-      <workItem from="1508896630833" duration="17104000" />
+      <workItem from="1508896630833" duration="20753000" />
+      <workItem from="1508983284361" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94637000" />
+    <option name="totallyTimeSpent" value="98288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -555,18 +491,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1276" height="778" extended-state="0" />
+    <frame x="4" y="22" width="1276" height="778" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5031348" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32863188" sideWeight="0.4968652" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.4968652" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -576,6 +512,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -634,49 +571,60 @@
         <state relative-caret-position="2760">
           <caret line="184" column="13" lean-forward="false" selection-start-line="184" selection-start-column="13" selection-end-line="184" selection-end-column="13" />
           <folding>
-            <marker date="1508921906000" expanded="false" signature="6:195" ph="..." />
-            <marker date="1508921906000" expanded="true" signature="211:8123" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="215:286" ph="/// This is the main type for your game. ... " />
-            <marker date="1508921906000" expanded="true" signature="313:8121" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="734:764" ph="/* run end ... */" />
-            <marker date="1508921906000" expanded="true" signature="955:986" ph="/* stand end ... */" />
-            <marker date="1508921906000" expanded="true" signature="1205:1237" ph="/* jump end ... */" />
-            <marker date="1508921906000" expanded="true" signature="1557:1765" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="1775:2098" ph="/// Allows the game to perform any initialization it needs to before starting to run. ... " />
-            <marker date="1508921906000" expanded="true" signature="2137:2244" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="2274:3867" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="2440:2510" ph="/* foreach (string i in data) ... */" />
-            <marker date="1508921906000" expanded="true" signature="2718:3845" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="2760:3840" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="2838:3834" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="2929:3783" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="3146:3339" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="3206:3330" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="3794:3827" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="3873:4002" ph="/// LoadContent will be called once per game and is the place to load ... " />
-            <marker date="1508921906000" expanded="true" signature="4042:4936" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="4318:4350" ph="/* run end ... */" />
-            <marker date="1508921906000" expanded="true" signature="4492:4525" ph="/* stand end ... */" />
-            <marker date="1508921906000" expanded="true" signature="4664:4698" ph="/* jump end ... */" />
-            <marker date="1508921906000" expanded="true" signature="4940:5175" ph="/// Allows the game to run logic such as updating the world, ... " />
-            <marker date="1508921906000" expanded="true" signature="5227:7379" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="5235:5352" ph="/* For Mobile devices, this logic will close the Game when the Back button is pressed ... */" />
-            <marker date="1508921906000" expanded="true" signature="5759:5973" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="6014:6240" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="6285:6572" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="6613:6725" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="6640:6720" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="6793:7280" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="6914:7008" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7017:7112" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7184:7222" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7386:7546" ph="/// This is called when the game should draw itself. ... " />
-            <marker date="1508921906000" expanded="true" signature="7596:8112" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7755:7841" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7786:7831" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7858:7910" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7928:7982" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="8003:8058" ph="{...}" />
+            <marker date="1508926810000" expanded="false" signature="6:195" ph="..." />
+            <marker date="1508926810000" expanded="true" signature="211:10182" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="215:286" ph="/// This is the main type for your game. ... " />
+            <marker date="1508926810000" expanded="true" signature="313:10180" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="773:803" ph="/* run end ... */" />
+            <marker date="1508926810000" expanded="true" signature="994:1025" ph="/* stand end ... */" />
+            <marker date="1508926810000" expanded="true" signature="1244:1276" ph="/* jump end ... */" />
+            <marker date="1508926810000" expanded="true" signature="1503:1534" ph="/* bullet end ... */" />
+            <marker date="1508926810000" expanded="true" signature="2164:2372" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="2382:2705" ph="/// Allows the game to perform any initialization it needs to before starting to run. ... " />
+            <marker date="1508926810000" expanded="true" signature="2744:2851" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="2881:4474" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="3047:3117" ph="/* foreach (string i in data) ... */" />
+            <marker date="1508926810000" expanded="true" signature="3325:4452" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="3367:4447" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="3445:4441" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="3536:4390" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="3753:3946" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="3813:3937" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="4401:4434" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="4480:4609" ph="/// LoadContent will be called once per game and is the place to load ... " />
+            <marker date="1508926810000" expanded="true" signature="4649:6450" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="4925:4957" ph="/* run end ... */" />
+            <marker date="1508926810000" expanded="true" signature="5099:5132" ph="/* stand end ... */" />
+            <marker date="1508926810000" expanded="true" signature="5271:5305" ph="/* jump end ... */" />
+            <marker date="1508926810000" expanded="true" signature="5454:5489" ph="/* bullet end ... */" />
+            <marker date="1508926810000" expanded="true" signature="5552:5772" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="6363:6446" ph="/* enemybullet stop ... */" />
+            <marker date="1508926810000" expanded="true" signature="6454:6689" ph="/// Allows the game to run logic such as updating the world, ... " />
+            <marker date="1508926810000" expanded="true" signature="6741:9344" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="6749:6866" ph="/* For Mobile devices, this logic will close the Game when the Back button is pressed ... */" />
+            <marker date="1508926810000" expanded="true" signature="7254:8436" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="7300:7522" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="7564:7798" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="7844:7876" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="7893:8266" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8094:8141" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8151:8187" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8312:8431" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8341:8425" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8508:8995" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8629:8723" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8732:8827" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8899:8937" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9038:9237" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9172:9232" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9351:9511" ph="/// This is called when the game should draw itself. ... " />
+            <marker date="1508926810000" expanded="true" signature="9561:10171" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9720:9806" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9751:9796" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9823:9875" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9893:9947" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9968:10023" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="10065:10117" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -687,7 +635,6 @@
           <caret line="52" column="33" lean-forward="false" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
           <folding>
             <marker date="1508832675000" expanded="false" signature="6:122" ph="..." />
-            <marker date="1508832675000" expanded="true" signature="139:3452" ph="{...}" />
             <marker date="1508832675000" expanded="true" signature="170:3450" ph="{...}" />
             <marker date="1508832675000" expanded="true" signature="740:1232" ph="{...}" />
             <marker date="1508832675000" expanded="true" signature="1311:2150" ph="{...}" />
@@ -750,49 +697,60 @@
         <state relative-caret-position="1320">
           <caret line="88" column="24" lean-forward="false" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
           <folding>
-            <marker date="1508921906000" expanded="false" signature="6:195" ph="..." />
-            <marker date="1508921906000" expanded="true" signature="211:8123" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="215:286" ph="/// This is the main type for your game. ... " />
-            <marker date="1508921906000" expanded="true" signature="313:8121" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="734:764" ph="/* run end ... */" />
-            <marker date="1508921906000" expanded="true" signature="955:986" ph="/* stand end ... */" />
-            <marker date="1508921906000" expanded="true" signature="1205:1237" ph="/* jump end ... */" />
-            <marker date="1508921906000" expanded="true" signature="1557:1765" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="1775:2098" ph="/// Allows the game to perform any initialization it needs to before starting to run. ... " />
-            <marker date="1508921906000" expanded="true" signature="2137:2244" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="2274:3867" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="2440:2510" ph="/* foreach (string i in data) ... */" />
-            <marker date="1508921906000" expanded="true" signature="2718:3845" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="2760:3840" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="2838:3834" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="2929:3783" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="3146:3339" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="3206:3330" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="3794:3827" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="3873:4002" ph="/// LoadContent will be called once per game and is the place to load ... " />
-            <marker date="1508921906000" expanded="true" signature="4042:4936" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="4318:4350" ph="/* run end ... */" />
-            <marker date="1508921906000" expanded="true" signature="4492:4525" ph="/* stand end ... */" />
-            <marker date="1508921906000" expanded="true" signature="4664:4698" ph="/* jump end ... */" />
-            <marker date="1508921906000" expanded="true" signature="4940:5175" ph="/// Allows the game to run logic such as updating the world, ... " />
-            <marker date="1508921906000" expanded="true" signature="5227:7379" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="5235:5352" ph="/* For Mobile devices, this logic will close the Game when the Back button is pressed ... */" />
-            <marker date="1508921906000" expanded="true" signature="5759:5973" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="6014:6240" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="6285:6572" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="6613:6725" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="6640:6720" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="6793:7280" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="6914:7008" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7017:7112" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7184:7222" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7386:7546" ph="/// This is called when the game should draw itself. ... " />
-            <marker date="1508921906000" expanded="true" signature="7596:8112" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7755:7841" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7786:7831" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7858:7910" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7928:7982" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="8003:8058" ph="{...}" />
+            <marker date="1508926810000" expanded="false" signature="6:195" ph="..." />
+            <marker date="1508926810000" expanded="true" signature="211:10182" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="215:286" ph="/// This is the main type for your game. ... " />
+            <marker date="1508926810000" expanded="true" signature="313:10180" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="773:803" ph="/* run end ... */" />
+            <marker date="1508926810000" expanded="true" signature="994:1025" ph="/* stand end ... */" />
+            <marker date="1508926810000" expanded="true" signature="1244:1276" ph="/* jump end ... */" />
+            <marker date="1508926810000" expanded="true" signature="1503:1534" ph="/* bullet end ... */" />
+            <marker date="1508926810000" expanded="true" signature="2164:2372" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="2382:2705" ph="/// Allows the game to perform any initialization it needs to before starting to run. ... " />
+            <marker date="1508926810000" expanded="true" signature="2744:2851" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="2881:4474" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="3047:3117" ph="/* foreach (string i in data) ... */" />
+            <marker date="1508926810000" expanded="true" signature="3325:4452" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="3367:4447" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="3445:4441" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="3536:4390" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="3753:3946" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="3813:3937" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="4401:4434" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="4480:4609" ph="/// LoadContent will be called once per game and is the place to load ... " />
+            <marker date="1508926810000" expanded="true" signature="4649:6450" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="4925:4957" ph="/* run end ... */" />
+            <marker date="1508926810000" expanded="true" signature="5099:5132" ph="/* stand end ... */" />
+            <marker date="1508926810000" expanded="true" signature="5271:5305" ph="/* jump end ... */" />
+            <marker date="1508926810000" expanded="true" signature="5454:5489" ph="/* bullet end ... */" />
+            <marker date="1508926810000" expanded="true" signature="5552:5772" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="6363:6446" ph="/* enemybullet stop ... */" />
+            <marker date="1508926810000" expanded="true" signature="6454:6689" ph="/// Allows the game to run logic such as updating the world, ... " />
+            <marker date="1508926810000" expanded="true" signature="6741:9344" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="6749:6866" ph="/* For Mobile devices, this logic will close the Game when the Back button is pressed ... */" />
+            <marker date="1508926810000" expanded="true" signature="7254:8436" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="7300:7522" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="7564:7798" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="7844:7876" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="7893:8266" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8094:8141" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8151:8187" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8312:8431" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8341:8425" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8508:8995" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8629:8723" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8732:8827" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8899:8937" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9038:9237" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9172:9232" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9351:9511" ph="/// This is called when the game should draw itself. ... " />
+            <marker date="1508926810000" expanded="true" signature="9561:10171" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9720:9806" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9751:9796" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9823:9875" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9893:9947" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9968:10023" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="10065:10117" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -926,7 +884,6 @@
           <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
             <marker date="1508825275000" expanded="false" signature="6:54" ph="..." />
-            <marker date="1508825275000" expanded="true" signature="70:1006" ph="{...}" />
             <marker date="1508825275000" expanded="true" signature="94:211" ph="{...}" />
             <marker date="1508825275000" expanded="true" signature="127:205" ph="{...}" />
             <marker date="1508825275000" expanded="true" signature="235:334" ph="{...}" />
@@ -965,26 +922,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo1/Player.cs" />
-    <entry file="file://$PROJECT_DIR$/Demo1/Sprite.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="82" column="9" lean-forward="false" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
-          <folding>
-            <marker date="1508832675000" expanded="false" signature="6:122" ph="..." />
-            <marker date="1508832675000" expanded="true" signature="139:3452" ph="{...}" />
-            <marker date="1508832675000" expanded="true" signature="170:3450" ph="{...}" />
-            <marker date="1508832675000" expanded="true" signature="740:1232" ph="{...}" />
-            <marker date="1508832675000" expanded="true" signature="1311:2150" ph="{...}" />
-            <marker date="1508832675000" expanded="true" signature="1325:1552" ph="/* gameTime.ElapsedGameTime 属性来检测自上一帧之后经过了多少时间。这个属性表示上一次调用Update方法后经过的时间（一帧多少秒） ... */" />
-            <marker date="1508832675000" expanded="true" signature="1685:2114" ph="{...}" />
-            <marker date="1508832675000" expanded="true" signature="1843:2100" ph="{...}" />
-            <marker date="1508832675000" expanded="true" signature="1994:2082" ph="{...}" />
-            <marker date="1508832675000" expanded="true" signature="2227:2664" ph="{...}" />
-            <marker date="1508832675000" expanded="true" signature="2768:3435" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Demo1/Content/player/john_run.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -999,7 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2513">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,7 +955,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo1/MapXml.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="898">
+        <state relative-caret-position="1305">
           <caret line="93" column="9" lean-forward="false" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
           <folding>
             <marker date="1508408227000" expanded="false" signature="6:189" ph="..." />
@@ -1049,7 +985,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo1/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
+        <state relative-caret-position="375">
           <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
           <folding>
             <marker date="1508317393000" expanded="true" signature="0:226" ph="Using Statements" />
@@ -1066,7 +1002,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo/Game1.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
+        <state relative-caret-position="540">
           <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="41" selection-end-column="52" />
           <folding>
             <marker date="1508310376000" expanded="false" signature="6:122" ph="..." />
@@ -1113,54 +1049,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Demo1/Sprite.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="99" column="53" lean-forward="false" selection-start-line="99" selection-start-column="53" selection-end-line="99" selection-end-column="53" />
+          <folding>
+            <marker date="1508832675000" expanded="false" signature="6:122" ph="..." />
+            <marker date="1508832675000" expanded="true" signature="170:3450" ph="{...}" />
+            <marker date="1508832675000" expanded="true" signature="740:1232" ph="{...}" />
+            <marker date="1508832675000" expanded="true" signature="1311:2150" ph="{...}" />
+            <marker date="1508832675000" expanded="true" signature="1325:1552" ph="/* gameTime.ElapsedGameTime 属性来检测自上一帧之后经过了多少时间。这个属性表示上一次调用Update方法后经过的时间（一帧多少秒） ... */" />
+            <marker date="1508832675000" expanded="true" signature="1685:2114" ph="{...}" />
+            <marker date="1508832675000" expanded="true" signature="1843:2100" ph="{...}" />
+            <marker date="1508832675000" expanded="true" signature="1994:2082" ph="{...}" />
+            <marker date="1508832675000" expanded="true" signature="2227:2664" ph="{...}" />
+            <marker date="1508832675000" expanded="true" signature="2768:3435" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Demo1/Game1.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="235" column="33" lean-forward="false" selection-start-line="235" selection-start-column="33" selection-end-line="235" selection-end-column="33" />
+        <state relative-caret-position="315">
+          <caret line="301" column="37" lean-forward="false" selection-start-line="301" selection-start-column="37" selection-end-line="301" selection-end-column="37" />
           <folding>
-            <marker date="1508921906000" expanded="false" signature="6:195" ph="..." />
-            <marker date="1508921906000" expanded="true" signature="211:8123" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="215:286" ph="/// This is the main type for your game. ... " />
-            <marker date="1508921906000" expanded="true" signature="313:8121" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="734:764" ph="/* run end ... */" />
-            <marker date="1508921906000" expanded="true" signature="955:986" ph="/* stand end ... */" />
-            <marker date="1508921906000" expanded="true" signature="1205:1237" ph="/* jump end ... */" />
-            <marker date="1508921906000" expanded="true" signature="1557:1765" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="1775:2098" ph="/// Allows the game to perform any initialization it needs to before starting to run. ... " />
-            <marker date="1508921906000" expanded="true" signature="2137:2244" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="2274:3867" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="2440:2510" ph="/* foreach (string i in data) ... */" />
-            <marker date="1508921906000" expanded="true" signature="2718:3845" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="2760:3840" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="2838:3834" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="2929:3783" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="3146:3339" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="3206:3330" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="3794:3827" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="3873:4002" ph="/// LoadContent will be called once per game and is the place to load ... " />
-            <marker date="1508921906000" expanded="true" signature="4042:4936" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="4318:4350" ph="/* run end ... */" />
-            <marker date="1508921906000" expanded="true" signature="4492:4525" ph="/* stand end ... */" />
-            <marker date="1508921906000" expanded="true" signature="4664:4698" ph="/* jump end ... */" />
-            <marker date="1508921906000" expanded="true" signature="4940:5175" ph="/// Allows the game to run logic such as updating the world, ... " />
-            <marker date="1508921906000" expanded="true" signature="5227:7379" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="5235:5352" ph="/* For Mobile devices, this logic will close the Game when the Back button is pressed ... */" />
-            <marker date="1508921906000" expanded="true" signature="5759:5973" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="6014:6240" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="6285:6572" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="6613:6725" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="6640:6720" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="6793:7280" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="6914:7008" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7017:7112" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7184:7222" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7386:7546" ph="/// This is called when the game should draw itself. ... " />
-            <marker date="1508921906000" expanded="true" signature="7596:8112" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7755:7841" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7786:7831" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7858:7910" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="7928:7982" ph="{...}" />
-            <marker date="1508921906000" expanded="true" signature="8003:8058" ph="{...}" />
+            <marker date="1508926810000" expanded="false" signature="6:195" ph="..." />
+            <marker date="1508926810000" expanded="true" signature="211:10182" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="215:286" ph="/// This is the main type for your game. ... " />
+            <marker date="1508926810000" expanded="true" signature="313:10180" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="773:803" ph="/* run end ... */" />
+            <marker date="1508926810000" expanded="true" signature="994:1025" ph="/* stand end ... */" />
+            <marker date="1508926810000" expanded="true" signature="1244:1276" ph="/* jump end ... */" />
+            <marker date="1508926810000" expanded="true" signature="1503:1534" ph="/* bullet end ... */" />
+            <marker date="1508926810000" expanded="true" signature="2164:2372" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="2382:2705" ph="/// Allows the game to perform any initialization it needs to before starting to run. ... " />
+            <marker date="1508926810000" expanded="true" signature="2744:2851" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="2881:4474" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="3047:3117" ph="/* foreach (string i in data) ... */" />
+            <marker date="1508926810000" expanded="true" signature="3325:4452" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="3367:4447" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="3445:4441" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="3536:4390" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="3753:3946" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="3813:3937" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="4401:4434" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="4480:4609" ph="/// LoadContent will be called once per game and is the place to load ... " />
+            <marker date="1508926810000" expanded="true" signature="4649:6450" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="4925:4957" ph="/* run end ... */" />
+            <marker date="1508926810000" expanded="true" signature="5099:5132" ph="/* stand end ... */" />
+            <marker date="1508926810000" expanded="true" signature="5271:5305" ph="/* jump end ... */" />
+            <marker date="1508926810000" expanded="true" signature="5454:5489" ph="/* bullet end ... */" />
+            <marker date="1508926810000" expanded="true" signature="5552:5772" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="6363:6446" ph="/* enemybullet stop ... */" />
+            <marker date="1508926810000" expanded="true" signature="6454:6689" ph="/// Allows the game to run logic such as updating the world, ... " />
+            <marker date="1508926810000" expanded="true" signature="6741:9344" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="6749:6866" ph="/* For Mobile devices, this logic will close the Game when the Back button is pressed ... */" />
+            <marker date="1508926810000" expanded="true" signature="7254:8436" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="7300:7522" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="7564:7798" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="7844:7876" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="7893:8266" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8094:8141" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8151:8187" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8312:8431" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8341:8425" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8508:8995" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8629:8723" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8732:8827" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="8899:8937" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9038:9237" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9172:9232" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9351:9511" ph="/// This is called when the game should draw itself. ... " />
+            <marker date="1508926810000" expanded="true" signature="9561:10171" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9720:9806" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9751:9796" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9823:9875" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9893:9947" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="9968:10023" ph="{...}" />
+            <marker date="1508926810000" expanded="true" signature="10065:10117" ph="{...}" />
           </folding>
         </state>
       </provider>

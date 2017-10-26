@@ -17,6 +17,8 @@ namespace Demo1
 		SpriteBatch spriteBatch;
 		Tiles[,] _tileses; //地图图块
 
+		private bool playerDeath = false;
+		
 		private Vector2 playPosition = new Vector2(10, 314);
 		// run start		
 		private Sprite runSprite;
@@ -67,8 +69,35 @@ namespace Demo1
 		private bool bulletAlive = false;
 		// bullet end
 
+		// enemy start
+
+		private Sprite[] enemySprite;
+		private Point enemyCurrentFrame = Point.Zero;
+		Point enemyFrameSize = new Point(26, 22);
+		Point enemySheetSize = new Point(1, 1);
+		
+		// enemy stop
+		
+		
+		
+		// enemybullet start
+		private Sprite enemyBullet;
+		
+		private Point enemyBulletCurrentFrame = Point.Zero;
+
+		private Point enemyBulletFrameSize = new Point(8, 8);
+
+		private Point enemyBulletSheetSize = new Point(7, 1);
+
+		private bool enemyBulletAlive = false;
+		// enemybullet stop
+		
 		private int currentTime = 0;
 		private int lastTime = 0;
+
+		private float lastHeight = 0;
+
+		private bool isJump = false;
 		
 		public Game1()
 		{
@@ -180,7 +209,30 @@ namespace Demo1
 
 			// bullet end
 			
+			// enemy start
+			enemySprite = new Sprite[5];
+			for (int i = 0; i < 5; i++)
+			{
+				enemySprite[i] = new Sprite(Content.Load<Texture2D>(@"enemy/grunt_crouch"),playPosition,enemyCurrentFrame,enemyFrameSize,enemySheetSize);
+				enemySprite[i].spriteEffects = SpriteEffects.FlipHorizontally;
+
+			}
 			
+			enemySprite[0].position = new Vector2(20 * 8, 41 * 8 - 11);
+			enemySprite[1].position = new Vector2(30 * 8, 41 * 8 - 11);
+			enemySprite[2].position = new Vector2(55 * 8, 26 * 8 - 11);
+			enemySprite[3].position = new Vector2(89 * 8, 33 * 8 - 11);
+			enemySprite[4].position = new Vector2(16 * 8, 13 * 8 - 11);
+			enemySprite[4].spriteEffects = SpriteEffects.None;
+
+
+
+			// enemy end
+			
+			
+			// enemybullet start
+			enemyBullet = new Sprite(Content.Load<Texture2D>(@"enemy/enemy_weapon_bullet"),playPosition,enemyBulletCurrentFrame,enemyBulletFrameSize,enemyBulletSheetSize);
+			// enemybullet stop
 			
 			//TODO: use this.Content to load your game content here 
 		}
@@ -205,46 +257,61 @@ namespace Demo1
 
 			KeyboardState keyboardState = Keyboard.GetState();
 			KeyboardState previourseKeyboardState = Keyboard.GetState();
-			if (keyboardState.IsKeyDown(Keys.D))
+			if (!playerDeath)
 			{
-				jumpAlive = false;
-				runAlive = true;
-				playPosition.X++;
-				runSprite.position.X = playPosition.X;
-				runSprite.spriteEffects = SpriteEffects.None;
-				runSprite.Update(gameTime, spriteBatch);
-			}
-
-			if (keyboardState.IsKeyDown(Keys.A))
-			{
-				jumpAlive = false;
-				runAlive = true;
-				playPosition.X--;
-				runSprite.position.X = playPosition.X;
-				runSprite.spriteEffects = SpriteEffects.FlipHorizontally;
-				runSprite.Update(gameTime, spriteBatch);
-			}
-
-			if (keyboardState.IsKeyDown(Keys.Space))
-			{
-				jumpSprite.spriteEffects = runSprite.spriteEffects;
-				jumpSprite.position = playPosition;
-				jumpSprite.Update(gameTime,spriteBatch);
-				jumpSprite.position.Y -= 40;
-				jumpSprite.position.X += 40;
-				playPosition.Y -= 40;
-				jumpAlive = true;
-				runAlive = false;
-			}
-
-			if (keyboardState.IsKeyDown(Keys.J))
-			{
-				if (!bulletAlive)
+				if (keyboardState.IsKeyDown(Keys.D))
 				{
-					bulletAlive = true;
-					bulletSprite.position = playPosition;
+					jumpAlive = false;
+					runAlive = true;
+					playPosition.X++;
+					runSprite.position.X = playPosition.X;
+					runSprite.spriteEffects = SpriteEffects.None;
+					runSprite.Update(gameTime, spriteBatch);
+				}
+
+				if (keyboardState.IsKeyDown(Keys.A))
+				{
+					jumpAlive = false;
+					runAlive = true;
+					playPosition.X--;
+					runSprite.position.X = playPosition.X;
+					runSprite.spriteEffects = SpriteEffects.FlipHorizontally;
+					runSprite.Update(gameTime, spriteBatch);
+				}
+
+				if (keyboardState.IsKeyDown(Keys.Space))
+				{
+					isJump = true;
+				}
+
+				if (isJump)
+				{
+					jumpSprite.spriteEffects = runSprite.spriteEffects;
+					jumpSprite.position = playPosition;
+					jumpSprite.Update(gameTime,spriteBatch);
+					if (lastHeight - jumpSprite.position.Y <= 40)
+					{
+						jumpSprite.position.Y -=5;
+					}
+					else
+					{
+						isJump = false;
+					}
+					playPosition.Y -= 40;
+					jumpAlive = true;
+					runAlive = false;
+				}
+				
+				if (keyboardState.IsKeyDown(Keys.J))
+				{
+					if (!bulletAlive)
+					{
+						bulletAlive = true;
+						bulletSprite.position = playPosition;
+					}
 				}
 			}
+			
 
 //			bulletSprite.millisecondsPerFrame = 100;
 
@@ -269,6 +336,19 @@ namespace Demo1
 				
 				bulletSprite.Update(gameTime, spriteBatch);
 			}
+
+
+			foreach (var VARIABLE in enemySprite)
+			{
+				VARIABLE.Update(gameTime, spriteBatch);
+				if (runSprite.Collision(VARIABLE.position, runSprite.position, new Point(0, 0)))
+				{
+					runAlive = false;
+					playerDeath = true;
+				}
+			}
+			
+			
 			
 			Console.WriteLine(gameTime.ElapsedGameTime.Milliseconds);
 			
@@ -308,6 +388,11 @@ namespace Demo1
 			if (bulletAlive)
 			{
 				bulletSprite.Draw(gameTime,spriteBatch);
+			}
+
+			foreach (var VARIABLE in enemySprite)
+			{
+				VARIABLE.Draw(gameTime, spriteBatch);
 			}
 			
 			spriteBatch.End();

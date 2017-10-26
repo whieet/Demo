@@ -6,6 +6,15 @@
   <SourceFiles>
     <File>/Users/whieet/Projects/Demo/Demo1/Content/clouds1.png</File>
     <File>/Users/whieet/Projects/Demo/Demo1/Content/clouds2.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/enemy/enemy_weapon_bullet.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/enemy/grunt.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/enemy/grunt_crouch.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/enemy/grunt_crouch_shoot_front.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/enemy/grunt_death.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/enemy/grunt_idle.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/enemy/grunt_run.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/enemy/grunt_shoot.png</File>
+    <File>/Users/whieet/Projects/Demo/Demo1/Content/enemy/turret.png</File>
     <File>/Users/whieet/Projects/Demo/Demo1/Content/jungle_bg_trees.png</File>
     <File>/Users/whieet/Projects/Demo/Demo1/Content/jungle_paralax_bg1.png</File>
     <File>/Users/whieet/Projects/Demo/Demo1/Content/jungle_paralax_bg2.png</File>

@@ -65,3 +65,12 @@
 /Users/whieet/Projects/Demo/Demo1/bin/Debug/Content/player/player_weapon_break.xnb
 /Users/whieet/Projects/Demo/Demo1/bin/Debug/Content/player/weapon_bullet.xnb
 /Users/whieet/Projects/Demo/Demo1/bin/Debug/Content/walktile.xnb
+/Users/whieet/Projects/Demo/Demo1/bin/Debug/Content/enemy/enemy_weapon_bullet.xnb
+/Users/whieet/Projects/Demo/Demo1/bin/Debug/Content/enemy/grunt.xnb
+/Users/whieet/Projects/Demo/Demo1/bin/Debug/Content/enemy/grunt_crouch.xnb
+/Users/whieet/Projects/Demo/Demo1/bin/Debug/Content/enemy/grunt_crouch_shoot_front.xnb
+/Users/whieet/Projects/Demo/Demo1/bin/Debug/Content/enemy/grunt_death.xnb
+/Users/whieet/Projects/Demo/Demo1/bin/Debug/Content/enemy/grunt_idle.xnb
+/Users/whieet/Projects/Demo/Demo1/bin/Debug/Content/enemy/grunt_run.xnb
+/Users/whieet/Projects/Demo/Demo1/bin/Debug/Content/enemy/grunt_shoot.xnb
+/Users/whieet/Projects/Demo/Demo1/bin/Debug/Content/enemy/turret.xnb
